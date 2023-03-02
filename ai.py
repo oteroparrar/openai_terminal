@@ -5,7 +5,7 @@ import colorama
 
 
 while True:
-    openai.api_key = "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"
+    openai.api_key = "TU_TOKEN"
     question = input(colorama.Fore.RED + "\n ***You:***\n\n")
     
     if question == "exit":
